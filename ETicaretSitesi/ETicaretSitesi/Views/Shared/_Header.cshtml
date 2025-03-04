@@ -1,0 +1,46 @@
+﻿@using ETicaretSitesi.Models
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- Logo -->
+                    <a href="@Url.Action("Index", "Home")" class="logo">
+                        <img src="~/Content/images/amblem2.jpg" alt="Site Logo">
+                    </a>
+                    <!-- Navigation Menu -->
+                    <ul class="nav">
+                        <li class="scroll-to-section"><a asp-controller="Home" asp-action="Index" class="active" color="green">Home</a></li>
+                        
+                        <li class="scroll-to-section"><a href="#men">Men's</a></li>
+                        <li class="scroll-to-section"><a href="#women">Women's</a></li>
+                        <li class="scroll-to-section"><a href="#kids">Kid's</a></li>
+                        <li class="submenu">
+                            <a href="javascript:void(0);">Pages</a>
+                            <ul>
+                               
+                                <li><a asp-controller="Products" asp-action="Products">Products</a></li>
+                                <li><a asp-controller="Home" asp-action="About">About Us</a></li>
+                                <li><a asp-controller="Home" asp-action="Contact">Contact Us</a></li>
+                                @* <li>
+                                    @if (ViewBag.Product != null)
+                                    {
+                                        <a asp-controller="Products" asp-action="Details" asp-route-id="@ViewBag.Product.Id">Single Product</a>
+                                    }
+                                </li> *@
+                                
+                            </ul>
+                        </li>
+                        <li class="scroll-to-section"><a href="#explore">Explore</a></li>
+                        <li class="scroll-to-section"><a asp-controller="Cart" asp-action="Index">Cart</a></li>
+                        <li class="scroll-to-section"><a asp-controller="Account" asp-action="Login">Login</a></li>
+                    </ul>
+                    <!-- Menu Trigger for Mobile -->
+                    <a class="menu-trigger">
+                        <span>Menu</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>

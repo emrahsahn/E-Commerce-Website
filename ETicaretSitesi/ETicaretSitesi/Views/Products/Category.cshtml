@@ -1,0 +1,91 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Category";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- ***** Header Area Start ***** -->
+@using ETicaretSitesi.Models
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- Logo -->
+                    <a href="@Url.Action("Index", "Home")" class="logo">
+                        <img src="~/Content/images/amblem2.jpg" alt="Site Logo">
+                    </a>
+                    <!-- Navigation Menu -->
+                    <ul class="nav">
+                        <li class="scroll-to-section"><a asp-controller="Home" asp-action="Index" class="active">Home</a></li>
+                        <li><a asp-controller="Home"     asp-action="About">About Us</a></li>
+                        <li><a asp-controller="Products" asp-action="Products">Products</a></li>
+                        <li><a asp-controller="Home"     asp-action="Contact">Contact Us</a></li>
+                        <li class="scroll-to-section"><a asp-controller="Cart" asp-action="Index">Cart</a></li>
+                        <li class="scroll-to-section"><a asp-controller="Account" asp-action="Login">Login</a></li>
+                    </ul>
+                    <!-- Menu Trigger for Mobile -->
+                    <a class="menu-trigger">
+                        <span>Menu</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- ***** Header Area End ***** -->
+<!-- ***** Main Banner Area Start ***** -->
+<div class="page-heading" id="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="inner-content">
+                    <h2>Product Page</h2>
+                    <span>Kategori Ürünler Sayfası</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ***** Main Banner Area End ***** -->
+
+<div class="product-details section" id="product">
+    <div class="container">
+        <div class="row">
+
+            <div class="container">
+                <div class="row">
+                    @foreach (var product in Model)
+                    {
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="/Content/images/@product.ImageUrl" class="card-img-top" alt="@product.ProductName">
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.ProductName</h5>
+                                    <p class="card-text">@product.ShortDescription</p>
+                                    <p><strong>Price:</strong> @product.Price</p>
+                                    <a asp-action="Details" asp-route-id="@product.ProductID" class="btn btn-outline-dark">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- ***** Footer Start ***** -->
+@await Html.PartialAsync("_Footer")
+<!-- ***** Footer End ***** -->
+<!-- ***** Scripts ***** -->
+@section Scripts {
+    <script src="~/js/jquery-3.7.0.min.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/owl-carousel.js"></script>
+    <script src="~/js/scrollreveal.min.js"></script>
+    <script src="~/js/custom.js"></script>
+}

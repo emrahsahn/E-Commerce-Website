@@ -1,0 +1,269 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using ETicaretSitesi.Models
+@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>HiSShop - About Page</title>
+
+
+    <!-- Additional CSS Files -->
+    <link href="/Content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/css/font-awesome.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/Content/css/templatemo-hexashop.css" />
+    <link rel="stylesheet" href="/Content/css/owl-carousel.css" />
+    <link rel="stylesheet" href="/Content/css/lightbox.css" />
+
+    <a asp-controller="Home" asp-action="Index" class="active">Home</a>
+    <a asp-controller="Home" asp-action="About" class="active">About</a>
+    <a asp-controller="Home" asp-action="Products" class="active">Products</a>
+    <a asp-controller="Home" asp-action="Index" class="active">Contact</a>
+</head>
+
+<body>
+    <!-- ***** Preloader End ***** -->
+    <!-- ***** Header Area Start ***** -->
+    @await Html.PartialAsync("_Header")
+    <!-- ***** Header Area End ***** -->
+    <!-- ***** Main Banner Area Start ***** -->
+
+    <div class="page-heading about-page-heading" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner-content">
+                        <h2>About Our Company</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left-image">
+                        <img src="/Content/images/about-left-image.jpg" alt="About Us">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="right-content">
+                        <h4>About Us &amp; Our Skills</h4>
+                        <p>
+                            We are a team operating in the field of e-commerce with an innovative approach and a customer-focused service philosophy. Our goal is to provide our users with both a reliable and enjoyable shopping experience while closely following the latest technologies and trends to add value to the industry. We always prioritize customer satisfaction and continue to grow by constantly improving the quality of our products and services.
+
+                            Our Skills
+                            E-Commerce Expertise: We successfully manage processes such as platform administration, campaign planning, product listing, and order tracking.
+                            Digital Marketing: We effectively reach our target audience through social media, SEO, email marketing, and digital advertising, promoting our brand and products.
+                            R&D and Technology Integration: We stay up to date with developments in the online world, integrating the latest technologies into our platform to enhance the user experience.
+                            Data Analysis and Optimization: We analyze customer habits and use the insights we gain to improve our processes and deliver more efficient solutions.
+                            Customer Relationship Management: Our experienced team provides quick and effective support for any questions or requests, ensuring a seamless shopping experience.
+
+                            Our mission is to offer products that meet your needs and expectations through a reliable infrastructure and an easy-to-use interface, thus making your e-commerce experience the best it can be. Our vision is to become one of the leading and exemplary brands in the sector by incorporating digital innovations into our business processes.
+                        </p>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="our-team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Our Amazing Team</h2>
+                        <span>Details to details is what makes HiSShop different from the other themes.</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-item">
+                        <div class="thumb">
+                            <img src="/Content/images/team-member-01.jpg" alt="Team Member">
+                        </div>
+                        <div class="down-content">
+                            <h4>Ragnar Lodbrok</h4>
+                            <span>Product Caretaker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-item">
+                        <div class="thumb">
+                            <img src="/Content/images/team-member-02.jpg" alt="Team Member">
+                        </div>
+                        <div class="down-content">
+                            <h4>Ragnar Lodbrok</h4>
+                            <span>Product Caretaker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-item">
+                        <div class="thumb">
+                            <img src="/Content/images/team-member-03.jpg" alt="Team Member">
+                        </div>
+                        <div class="down-content">
+                            <h4>Ragnar Lodbrok</h4>
+                            <span>Product Caretaker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Our Services</h2>
+                        <span>Details to details is what makes HiSShop different from the other themes.</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <h4>Synther Vaporware</h4>
+                        <p>The pain itself is very important, and it is followed by the education of the student, but the temps are such that one hangs himself with labor and pain.</p>
+                        <img src="/Content/images/service-01.jpg" alt="Service">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <h4>Locavore Squidward</h4>
+                        <p>The pain itself is very important, and it is followed by the education of the student, but the temps are such that one hangs himself with labor and pain.</p>
+                        <img src="/Content/images/service-02.jpg" alt="Service">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <h4>Health Gothfam</h4>
+                        <p>The pain itself is very important, and it is followed by the education of the student, but the temps are such that one hangs himself with labor and pain.</p>
+                        <img src="/Content/images/service-03.jpg" alt="Service">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ***** Services Area Ends ***** -->
+    <!-- ***** Subscribe Area Starts ***** -->
+    <div class="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="section-heading">
+                        <h2>By Subscribing To Our Newsletter You Can Get 30% Off</h2>
+                        <span>Details to details is what makes HiSShop different from the other themes.</span>
+                    </div>
+                    <form id="subscribe" action="" method="get">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <fieldset>
+                                    <input name="name" type="text" id="name" placeholder="Your Name" required="">
+                                </fieldset>
+                            </div>
+                            @*<div class="col-lg-5">
+                            <fieldset>
+
+                            </fieldset>
+                            </div>*@
+                            <div class="col-lg-2">
+                                <fieldset>
+                                    <button type="submit" id="form-submit" class="main-dark-button"><i class="fa fa-paper-plane"></i></button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul>
+                                <li>Store Location:<br><span>Yeniköy Merkez, Ilıca Cd. No:29, 41275 Başiskele/Kocaeli</span></li>
+                                <li>Phone:<br><span>0850 450 2828</span></li>
+                                <li>Office Location:<br><span>Kocaeli</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul>
+                                <li>Work Hours:<br><span>07:30 AM - 9:30 PM Daily</span></li>
+                                <li>Email:<br><span>info@company.com</span></li>
+                                <li>Social Media:<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Subscribe Area Ends ***** -->
+    <!-- ***** Footer Start ***** -->
+    @await Html.PartialAsync("_Footer")
+
+
+    <!-- jQuery -->
+    <script src="/js/jquery-3.7.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="/js/popper.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="/js/owl-carousel.js"></script>
+    <script src="/js/accordions.js"></script>
+    <script src="/js/datepicker.js"></script>
+    <script src="/js/scrollreveal.min.js"></script>
+    <script src="/js/waypoints.min.js"></script>
+    <script src="/js/jquery.counterup.min.js"></script>
+    <script src="/js/imgfix.min.js"></script>
+    <script src="/js/slick.js"></script>
+    <script src="/js/lightbox.js"></script>
+    <script src="/js/isotope.js"></script>
+
+    <!-- Global Init -->
+    <script src="/js/custom.js"></script>
+
+    <script>
+        $(function () {
+            var selectedClass = "";
+            $("p").click(function () {
+                selectedClass = $(this).attr("data-rel");
+                $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("." + selectedClass).fadeOut();
+                setTimeout(function () {
+                    $("." + selectedClass).fadeIn();
+                    $("#portfolio").fadeTo(50, 1);
+                }, 500);
+
+            });
+        });
+    </script>
+
+</body>
+
+</html>

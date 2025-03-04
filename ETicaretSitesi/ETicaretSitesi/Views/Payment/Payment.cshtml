@@ -1,0 +1,143 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Oturum Aç";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model ETicaretSitesi.Models.Payment
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link href="/Content/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="/js/modernizr.js"></script>
+
+    <!-- Additional CSS Files -->
+    <link href="/Content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/css/font-awesome.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/Content/css/templatemo-hexashop.css" />
+    <link rel="stylesheet" href="/Content/css/owl-carousel.css" />
+    <link rel="stylesheet" href="/Content/css/lightbox.css" />
+
+    <!--
+
+    TemplateMo 571 Hexashop
+
+    https://templatemo.com/tm-571-hexashop
+
+    -->
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    <!-- ***** Header Area Start ***** -->
+    @await Html.PartialAsync("_Header")
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <h2>Ödeme Formu</h2>
+    <p>Toplam Tutar: <strong>@ViewBag.TotalAmount</strong> ₺</p>
+
+    <form asp-action="ProcessPayment" asp-controller="Payment" method="post">
+        <div class="form-group">
+            <label>Kart Sahibi Adı</label>
+            <input asp-for="CardHolderName" class="form-control" />
+            <span asp-validation-for="CardHolderName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Kart Numarası</label>
+            <input asp-for="CardNumber" class="form-control" />
+            <span asp-validation-for="CardNumber" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Son Kullanma Ay</label>
+            <input asp-for="ExpireMonth" class="form-control" />
+            <span asp-validation-for="ExpireMonth" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Son Kullanma Yıl</label>
+            <input asp-for="ExpireYear" class="form-control" />
+            <span asp-validation-for="ExpireYear" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>CVC</label>
+            <input asp-for="Cvc" class="form-control" />
+            <span asp-validation-for="Cvc" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Ad</label>
+            <input asp-for="BuyerName" class="form-control" />
+            <span asp-validation-for="BuyerName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Soyad</label>
+            <input asp-for="BuyerSurname" class="form-control" />
+            <span asp-validation-for="BuyerSurname" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>E-posta</label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Adres</label>
+            <input asp-for="BuyerAddress" class="form-control" />
+            <span asp-validation-for="BuyerAddress" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Ödeme Yap</button>
+    </form>
+
+    @await Html.PartialAsync("_Footer")
+
+
+    <!-- jQuery -->
+    <script src="/js/jquery-3.7.0.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="/js/popper.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="/js/owl-carousel.js"></script>
+    <script src="/js/accordions.js"></script>
+    <script src="/js/datepicker.js"></script>
+    <script src="/js/scrollreveal.min.js"></script>
+    <script src="/js/waypoints.min.js"></script>
+    <script src="/js/jquery.counterup.min.js"></script>
+    <script src="/js/imgfix.min.js"></script>
+    <script src="/js/slick.js"></script>
+    <script src="/js/lightbox.js"></script>
+    <script src="/js/isotope.js"></script>
+
+    <!-- Global Init -->
+    <script src="/js/custom.js"></script>
+
+
+</body>
+</html>

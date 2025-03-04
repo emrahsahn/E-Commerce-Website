@@ -1,0 +1,111 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Content\bootstrap-grid.css" />
+    <None Include="wwwroot\Content\bootstrap-grid.css.map" />
+    <None Include="wwwroot\Content\bootstrap-grid.min.css" />
+    <None Include="wwwroot\Content\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\Content\bootstrap-grid.rtl.css" />
+    <None Include="wwwroot\Content\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\Content\bootstrap-grid.rtl.min.css" />
+    <None Include="wwwroot\Content\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\Content\bootstrap-reboot.css" />
+    <None Include="wwwroot\Content\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\Content\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\Content\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\Content\bootstrap-reboot.rtl.css" />
+    <None Include="wwwroot\Content\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\Content\bootstrap-reboot.rtl.min.css" />
+    <None Include="wwwroot\Content\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\Content\bootstrap-utilities.css" />
+    <None Include="wwwroot\Content\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\Content\bootstrap-utilities.min.css" />
+    <None Include="wwwroot\Content\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\Content\bootstrap-utilities.rtl.css" />
+    <None Include="wwwroot\Content\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\Content\bootstrap-utilities.rtl.min.css" />
+    <None Include="wwwroot\Content\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\Content\bootstrap.css" />
+    <None Include="wwwroot\Content\bootstrap.css.map" />
+    <None Include="wwwroot\Content\bootstrap.min.css" />
+    <None Include="wwwroot\Content\bootstrap.min.css.map" />
+    <None Include="wwwroot\Content\bootstrap.rtl.css" />
+    <None Include="wwwroot\Content\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\Content\bootstrap.rtl.min.css" />
+    <None Include="wwwroot\Content\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\Content\css\bootstrap.min.css" />
+    <None Include="wwwroot\Content\css\flex-slider.css" />
+    <None Include="wwwroot\Content\css\font-awesome.css" />
+    <None Include="wwwroot\Content\css\lightbox.css" />
+    <None Include="wwwroot\Content\css\owl-carousel.css" />
+    <None Include="wwwroot\Content\css\templatemo-hexashop.css" />
+    <None Include="wwwroot\Content\fonts\Flaticon.woff" />
+    <None Include="wwwroot\Content\fonts\flexslider-icon.eot" />
+    <None Include="wwwroot\Content\fonts\flexslider-icon.svg" />
+    <None Include="wwwroot\Content\fonts\flexslider-icon.ttf" />
+    <None Include="wwwroot\Content\fonts\flexslider-icon.woff" />
+    <None Include="wwwroot\Content\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\Content\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\Content\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\Content\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\Content\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\Content\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\Content\fonts\slick.eot" />
+    <None Include="wwwroot\Content\fonts\slick.svg" />
+    <None Include="wwwroot\Content\fonts\slick.ttf" />
+    <None Include="wwwroot\Content\fonts\slick.woff" />
+    <None Include="wwwroot\Content\images\about-left-image.jpg" />
+    <None Include="wwwroot\Content\images\about-us-page-heading.jpg" />
+    <None Include="wwwroot\Content\images\baner-right-image-01.jpg" />
+    <None Include="wwwroot\Content\images\baner-right-image-02.jpg" />
+    <None Include="wwwroot\Content\images\baner-right-image-03.jpg" />
+    <None Include="wwwroot\Content\images\baner-right-image-04.jpg" />
+    <None Include="wwwroot\Content\images\close.png" />
+    <None Include="wwwroot\Content\images\explore-image-01.jpg" />
+    <None Include="wwwroot\Content\images\explore-image-02.jpg" />
+    <None Include="wwwroot\Content\images\instagram-01.jpg" />
+    <None Include="wwwroot\Content\images\instagram-02.jpg" />
+    <None Include="wwwroot\Content\images\instagram-03.jpg" />
+    <None Include="wwwroot\Content\images\instagram-04.jpg" />
+    <None Include="wwwroot\Content\images\instagram-05.jpg" />
+    <None Include="wwwroot\Content\images\instagram-06.jpg" />
+    <None Include="wwwroot\Content\images\kid-01.jpg" />
+    <None Include="wwwroot\Content\images\kid-02.jpg" />
+    <None Include="wwwroot\Content\images\kid-03.jpg" />
+    <None Include="wwwroot\Content\images\left-banner-image.jpg" />
+    <None Include="wwwroot\Content\images\loading.gif" />
+    <None Include="wwwroot\Content\images\logo.png" />
+    <None Include="wwwroot\Content\images\men-01.jpg" />
+    <None Include="wwwroot\Content\images\men-02.jpg" />
+    <None Include="wwwroot\Content\images\men-03.jpg" />
+    <None Include="wwwroot\Content\images\next.png" />
+    <None Include="wwwroot\Content\images\prev.png" />
+    <None Include="wwwroot\Content\images\products-page-heading.jpg" />
+    <None Include="wwwroot\Content\images\service-01.jpg" />
+    <None Include="wwwroot\Content\images\service-02.jpg" />
+    <None Include="wwwroot\Content\images\service-03.jpg" />
+    <None Include="wwwroot\Content\images\single-product-01.jpg" />
+    <None Include="wwwroot\Content\images\single-product-02.jpg" />
+    <None Include="wwwroot\Content\images\team-member-01.jpg" />
+    <None Include="wwwroot\Content\images\team-member-02.jpg" />
+    <None Include="wwwroot\Content\images\team-member-03.jpg" />
+    <None Include="wwwroot\Content\images\white-logo.png" />
+    <None Include="wwwroot\Content\images\women-01.jpg" />
+    <None Include="wwwroot\Content\images\women-02.jpg" />
+    <None Include="wwwroot\Content\images\women-03.jpg" />
+    <None Include="wwwroot\Content\Site.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Iyzipay" Version="2.1.66" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>

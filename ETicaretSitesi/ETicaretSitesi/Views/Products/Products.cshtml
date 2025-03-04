@@ -1,0 +1,66 @@
+﻿@model IEnumerable<ETicaretSitesi.Models.Product>
+
+@{
+    ViewBag.Title = "Ürünler";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- ***** Header Area Start ***** -->
+@await Html.PartialAsync("_Header")
+<!-- ***** Header Area End ***** -->
+<!-- ***** Main Banner Start ***** -->
+<div class="page-heading" id="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="inner-content">
+                    <h2>Ürünlerimizi İnceleyin</h2>
+                    <span>Harika ve Yaratıcı HTML CSS düzeni ile TemplateMo</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Main Banner End ***** -->
+<!-- ***** Products Section Start ***** -->
+<div class="products-section">
+    <div class="container">
+        <div class="row">
+            @if (Model != null && Model.Any())
+            {
+                foreach (var product in Model)
+                {
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card h-100">
+                            <img src="@Url.Content("~/Content/images/" + product.ImageUrl)" class="card-img-top" alt="@product.ProductName" />
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">@product.ProductName</h5>
+                                <p class="card-text">@product.ShortDescription</p>
+                                <p class="card-text"><strong>Fiyat:</strong> @String.Format("{0:C}", product.Price)</p>
+                                <a href="@Url.Action("Details", "Products", new { id = product.ProductID })" class="btn btn-primary mt-auto">Detayları Gör</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col-12">
+                    <p>Ürün bulunamadı.</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<!-- ***** Products Section End ***** -->
+<!-- ***** Footer Start ***** -->
+@await Html.PartialAsync("_Footer")
+<!-- ***** Footer End ***** -->
+<!-- Scripts -->
+@section Scripts {
+    <script src="~/js/jquery-3.7.0.min.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/owl-carousel.js"></script>
+    <script src="~/js/scrollreveal.min.js"></script>
+    <script src="~/js/custom.js"></script>
+}

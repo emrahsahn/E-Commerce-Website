@@ -1,0 +1,544 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    var menProducts = ViewBag.MenProducts as List<ETicaretSitesi.Models.Product>;
+    var womenProducts = ViewBag.WomenProducts as List<ETicaretSitesi.Models.Product>;
+    var kidsProducts = ViewBag.KidsProducts as List<ETicaretSitesi.Models.Product>;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="TTES-Shop - ECommerce Website Template">
+    <meta name="keywords" content="ecommerce, shop, fashion, clothing, accessories">
+    <meta name="author" content="TTES-Shop">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <title>@ViewBag.Title - Ecommerce HTML CSS Template</title>
+
+
+    <link href="/Content/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="/js/modernizr.js"></script>
+
+    <!--
+
+    TemplateMo 571 Hexashop
+
+    https://templatemo.com/tm-571-hexashop
+
+    -->
+</head>
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    <!-- ***** Header Area Start ***** -->
+    @await Html.PartialAsync("_Header")
+
+    <!-- ***** Header Area End ***** -->
+    <main>
+        <!-- ***** Main Banner Area Start ***** -->
+        <div class="main-banner" id="top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="left-content">
+                            <div class="thumb">
+                                <div class="inner-content">
+                                    <h4>We Are HiSShop</h4>
+                                    <span>E-Commerce Website </span>
+                                    <div class="main-border-button">
+                                        <a href="#">Purchase Now!</a>
+                                    </div>
+                                </div>
+                                <img src="/Content/images/left-banner-image.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="right-content">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="right-first-image">
+                                        <div class="thumb">
+                                            <div class="inner-content">
+                                                <h4>Women</h4>
+                                                <span>Best Clothes For Women</span>
+                                            </div>
+                                            <div class="hover-content">
+                                                <div class="inner">
+                                                    <h4>Women</h4>
+                                                    <p>The customer should be very happy, the customer will be the customer of the customer.</p>
+                                                    <div class="main-border-button">
+                                                        <a asp-controller="Products" asp-action="Category" asp-route-categoryId="2" class="btn btn-secondary">Discover More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="/Content/images/baner-right-image-01.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="right-first-image">
+                                        <div class="thumb">
+                                            <div class="inner-content">
+                                                <h4>Men</h4>
+                                                <span>Best Clothes For Men</span>
+                                            </div>
+                                            <div class="hover-content">
+                                                <div class="inner">
+                                                    <h4>Men</h4>
+                                                    <p>The customer should be very happy, the customer will be the customer of the customer.</p>
+                                                    <div class="main-border-button">
+                                                        <a asp-controller="Products" asp-action="Category" asp-route-categoryId="1" class="btn btn-secondary">Discover More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="/Content/images/baner-right-image-02.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="right-first-image">
+                                        <div class="thumb">
+                                            <div class="inner-content">
+                                                <h4>Kids</h4>
+                                                <span>Best Clothes For Kids</span>
+                                            </div>
+                                            <div class="hover-content">
+                                                <div class="inner">
+                                                    <h4>Kids</h4>
+                                                    <p>The customer should be very happy, the customer will be the customer of the customer.</p>
+                                                    <div class="main-border-button">
+                                                        <a asp-controller="Products" asp-action="Category" asp-route-categoryId="3" class="btn btn-secondary">Discover More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="/Content/images/baner-right-image-03.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="right-first-image">
+                                        <div class="thumb">
+                                            <div class="inner-content">
+                                                <h4>Accessories</h4>
+                                                <span>Best Trend Accessories</span>
+                                            </div>
+                                            <div class="hover-content">
+                                                <div class="inner">
+                                                    <h4>Accessories</h4>
+                                                    <p>The customer should be very happy, the customer will be the customer of the customer.</p>
+                                                    <div class="main-border-button">
+                                                        <a href="#">Discover More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="/Content/images/baner-right-image-04.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Main Banner Area End ***** -->
+        <!-- ***** Men Area Starts ***** -->
+        <section class="section" id="men">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="section-heading">
+                            <a asp-controller="Products" asp-action="Category" asp-route-categoryId="1" class="btn btn-"><h2>Men's Products</h2></a>
+                            <br>
+                            <span>Details to details is what makes HiSShop different from the other themes.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="men-item-carousel">
+                            <div class="owl-men-item owl-carousel">
+                                @foreach (var product in menProducts)
+                                {
+                                    <div class="item">
+                                        <div class="thumb">
+                                            <div class="hover-content">
+                                                <ul>
+                                                    <li><a asp-controller="Products" asp-action="Details" asp-route-id="@product.ProductID"><i class="fa fa-eye"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                    <li><a asp-controller="Cart" asp-action="AddToCart" asp-route-id="@product.ProductID"><i class="fa fa-shopping-cart"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <img src="/Content/images/@product.ImageUrl" alt="@product.ProductName">
+                                        </div>
+                                        <div class="down-content">
+                                            <h4>@product.ProductName</h4>
+                                            <span>@product.Price</span>
+                                            <ul class="stars">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Men Area Ends ***** -->
+        <!-- ***** Women Area Starts ***** -->
+        <section class="section" id="women">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="section-heading">
+                            <a asp-controller="Products" asp-action="Category" asp-route-categoryId="2" class="btn btn-"><h2>Women's Products</h2></a>
+                            <br>
+                            <span>Details to details is what makes HiSShop different from the other themes.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="women-item-carousel">
+                            <div class="owl-women-item owl-carousel">
+                                @foreach (var product in womenProducts)
+                                {
+                                    <div class="item">
+                                        <div class="thumb">
+                                            <div class="hover-content">
+                                                <ul>
+                                                    <li><a asp-controller="Products" asp-action="Details" asp-route-id="@product.ProductID"><i class="fa fa-eye"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                    <li><a asp-controller="Cart" asp-action="AddToCart" asp-route-id="@product.ProductID"><i class="fa fa-shopping-cart"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <img src="/Content/images/@product.ImageUrl" alt="@product.ProductName">
+                                        </div>
+                                        <div class="down-content">
+                                            <h4>@product.ProductName</h4>
+                                            <span>@product.Price</span>
+                                            <ul class="stars">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Women Area Ends ***** -->
+        <!-- ***** Kids Area Starts ***** -->
+        <section class="section" id="kids">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="section-heading">
+                            <a asp-controller="Products" asp-action="Category" asp-route-categoryId="3" class="btn btn-"><h2>Kid's Products</h2></a>
+                            <br>
+                            <span>Details to details is what makes HiSShop different from the other themes.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="kid-item-carousel">
+                            <div class="owl-kid-item owl-carousel">
+                                @foreach (var product in kidsProducts)
+                                {
+                                    <div class="item">
+                                        <div class="thumb">
+                                            <div class="hover-content">
+                                                <ul>
+                                                    <li><a asp-controller="Products" asp-action="Details" asp-route-id="@product.ProductID"><i class="fa fa-eye"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                    <li><a asp-controller="Cart" asp-action="AddToCart" asp-route-id="@product.ProductID"><i class="fa fa-shopping-cart"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <img src="/Content/images/@product.ImageUrl" alt="@product.ProductName">
+                                        </div>
+                                        <div class="down-content">
+                                            <h4>@product.ProductName</h4>
+                                            <span>@product.Price</span>
+                                            <ul class="stars">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Kids Area Ends ***** -->
+        <!-- ***** Explore Area Starts ***** -->
+        <section class="section" id="explore">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="left-content">
+                            <h2>Explore Our Products</h2>
+                            <span>
+                                Welcome to our site! Here, you can explore our wide range of products catering to different tastes and needs, and effortlessly reach the category of your choice. Whether you’re looking for decorative items to add a splash of color to your lifestyle or want to upgrade your setup with the latest electronic devices, we bring you thousands of options suited to every style and budget. From eye-catching fashion pieces to personal care products, and from home textiles to sports equipment, our extensive collections are sure to have something for everyone.
+
+                                We offer a secure payment infrastructure and a user-friendly interface to make your shopping experience more enjoyable. With regular campaigns and discounts tailored to different budgets, you can find your dream products at truly attractive prices. Thanks to our fast shipping service, we also help you save time and energy by delivering your orders to your doorstep as quickly as possible.
+                            </span>
+
+                            <p>Discover hundreds of products tailored to your tastes and needs! In our carefully curated collections, you'll find everything from fashion to electronics, from home decor to personal care. Shop with confidence and enjoy a delightful experience at our store—check out your favorite products right away and take advantage of our exclusive deals!</p>
+                            <div class="main-border-button">
+                                <a asp-controller="Products" asp-action="Products" class="active">Products</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="right-content">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="leather">
+                                        <h4>Leather Bags</h4>
+                                        <span>Latest Collection</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="first-image">
+                                        <img src="/Content/images/explore-image-01.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="second-image">
+                                        <img src="/Content/images/explore-image-02.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="types">
+                                        <h4>Different Types</h4>
+                                        <span>Over 304 Products</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Explore Area Ends ***** -->
+        <!-- ***** Social Area Starts ***** -->
+        <section class="section" id="social">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-heading">
+                            <h2>Social Media</h2>
+                            <span>Details to details is what makes HiSShop different from the other themes.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row images">
+                    <div class="col-2">
+                        <div class="thumb">
+                            <div class="icon">
+                                <a href="http://instagram.com">
+                                    <h6>Fashion</h6>
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </div>
+                            <img src="/Content/images/instagram-01.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="thumb">
+                            <div class="icon">
+                                <a href="http://instagram.com">
+                                    <h6>New</h6>
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </div>
+                            <img src="/Content/images/instagram-02.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="thumb">
+                            <div class="icon">
+                                <a href="http://instagram.com">
+                                    <h6>Brand</h6>
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </div>
+                            <img src="/Content/images/instagram-03.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="thumb">
+                            <div class="icon">
+                                <a href="http://instagram.com">
+                                    <h6>Makeup</h6>
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </div>
+                            <img src="/Content/images/instagram-04.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="thumb">
+                            <div class="icon">
+                                <a href="http://instagram.com">
+                                    <h6>Leather</h6>
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </div>
+                            <img src="/Content/images/instagram-05.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="thumb">
+                            <div class="icon">
+                                <a href="http://instagram.com">
+                                    <h6>Bag</h6>
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </div>
+                            <img src="/Content/images/instagram-06.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Social Area Ends ***** -->
+        <!-- ***** Subscribe Area Starts ***** -->
+        <div class="subscribe">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="section-heading">
+                            <h2>By Subscribing To Our Newsletter You Can Get 30% Off</h2>
+                            <span>Details to details is what makes HiSShop different from the other themes.</span>
+                        </div>
+                        <form id="subscribe" action="" method="get">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <fieldset>
+                                        <input name="name" type="text" id="name" placeholder="Your Name" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-5">
+                                    <fieldset>
+                                        <input name="email" type="text" id="email" placeholder="Your Email Address" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-2">
+                                    <fieldset>
+                                        <button type="submit" id="form-submit" class="main-dark-button"><i class="fa fa-paper-plane"></i></button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-6">
+                                <ul>
+                                    <li>Store Location:<br><span>Yeniköy Merkez, Ilıca Cd. No:29, 41275 Başiskele/Kocaeli</span></li>
+                                    <li>Phone:<br><span>0850 450 2828</span></li>
+                                    <li>Office Location:<br><span>Kocaeli</span></li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul>
+                                    <li>Work Hours:<br><span>07:30 AM - 9:30 PM Daily</span></li>
+                                    <li>Email:<br><span>info@company.com</span></li>
+                                    <li>Social Media:<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Subscribe Area Ends ***** -->
+    </main>
+
+    <!-- ***** Footer Start ***** -->
+    @await Html.PartialAsync("_Footer")
+
+
+    <!-- jQuery -->
+    <script src="/js/jquery-3.7.0.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="/js/popper.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="/js/owl-carousel.js"></script>
+    <script src="/js/accordions.js"></script>
+    <script src="/js/datepicker.js"></script>
+    <script src="/js/scrollreveal.min.js"></script>
+    <script src="/js/waypoints.min.js"></script>
+    <script src="/js/jquery.counterup.min.js"></script>
+    <script src="/js/imgfix.min.js"></script>
+    <script src="/js/slick.js"></script>
+    <script src="/js/lightbox.js"></script>
+    <script src="/js/isotope.js"></script>
+
+    <!-- Global Init -->
+    <script src="/js/custom.js"></script>
+
+    <script>
+        $(function () {
+            var selectedClass = "";
+            $("p").click(function () {
+                selectedClass = $(this).attr("data-rel");
+                $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("." + selectedClass).fadeOut();
+                setTimeout(function () {
+                    $("." + selectedClass).fadeIn();
+                    $("#portfolio").fadeTo(50, 1);
+                }, 500);
+
+            });
+        });</script>
+
+
+
+</body>
+</html>
+
+

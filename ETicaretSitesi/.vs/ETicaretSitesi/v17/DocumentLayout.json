@@ -1,0 +1,427 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\business\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\business\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\views\\payment\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\views\\payment\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\views\\products\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\views\\products\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\views\\products\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\views\\products\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\models\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\models\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|c:\\users\\sahin\\desktop\\eticaretsitesi\\eticaretsitesi\\eticaretsitesi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E8AD5-264B-476A-AB80-8BE007C1679E}|ETicaretSitesi\\ETicaretSitesi.csproj|solutionrelative:eticaretsitesi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 177,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 93,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T11:26:20.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T11:25:09.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\appsettings.json",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\appsettings.json",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\appsettings.json",
+              "RelativeToolTip": "ETicaretSitesi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-10T11:06:22.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Program.cs",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Program.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Program.cs",
+              "RelativeToolTip": "ETicaretSitesi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T11:06:19.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T19:27:16.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T19:27:09.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAPkBAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T19:26:57.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IdentityModels.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Models\\IdentityModels.cs",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Models\\IdentityModels.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Models\\IdentityModels.cs",
+              "RelativeToolTip": "ETicaretSitesi\\Models\\IdentityModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:26:41.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Models\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Models\\AccountViewModels.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Models\\AccountViewModels.cs",
+              "RelativeToolTip": "ETicaretSitesi\\Models\\AccountViewModels.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:25:34.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SubCategory.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Models\\SubCategory.cs",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Models\\SubCategory.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Models\\SubCategory.cs",
+              "RelativeToolTip": "ETicaretSitesi\\Models\\SubCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:25:28.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Models\\Category.cs",
+              "RelativeToolTip": "ETicaretSitesi\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:24:12.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Models\\Products.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Models\\Products.cs",
+              "RelativeToolTip": "ETicaretSitesi\\Models\\Products.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwCMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:23:00.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Models\\Order.cs",
+              "RelativeToolTip": "ETicaretSitesi\\Models\\Order.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:22:43.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Models\\Payment.cs",
+              "RelativeToolTip": "ETicaretSitesi\\Models\\Payment.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:05:10.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Business\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Business\\Services\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Business\\Services\\PaymentService.cs",
+              "RelativeToolTip": "ETicaretSitesi\\Business\\Services\\PaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T18:57:55.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Payment.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Payment\\Payment.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Views\\Payment\\Payment.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Payment\\Payment.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\Views\\Payment\\Payment.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T18:57:32.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "ETicaretSitesi\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAuwGkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T18:57:07.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAkwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T18:52:20.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T18:45:24.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Category.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Products\\Category.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Views\\Products\\Category.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Products\\Category.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\Views\\Products\\Category.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T17:41:40.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ETicaretSitesi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T13:49:39.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ETicaretSitesi\\Controllers\\CartController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAA3wFIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T22:13:36.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ETicaretSitesi\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABQBAAAAAAAAAAA4wCcBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T22:00:16.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T15:14:41.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Products\\Products.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\Views\\Products\\Products.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Products\\Products.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\Views\\Products\\Products.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T15:12:10.326Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

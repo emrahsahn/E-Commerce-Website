@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\Error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\Error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ETicaretSitesi\\ETicaretSitesi\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ETicaretSitesi\\ETicaretSitesi\\Views\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 93,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T20:41:10.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T19:37:39.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-20T19:37:32.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\ETicaretSitesi\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\ETicaretSitesi\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T19:37:29.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\ETicaretSitesi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T19:30:26.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ETicaretSitesi\\ETicaretSitesi\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\\u0131v\u0131r z\u0131v\u0131r dosyas\u0131\\ETicaretSitesi\\ETicaretSitesi\\ETicaretSitesi\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ETicaretSitesi\\ETicaretSitesi\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T19:30:19.999Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

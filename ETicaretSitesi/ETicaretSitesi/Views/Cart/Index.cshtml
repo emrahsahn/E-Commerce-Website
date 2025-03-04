@@ -1,0 +1,168 @@
+﻿
+@model IEnumerable<ETicaretSitesi.Models.Cart>
+
+@{
+    ViewBag.Title = "Your Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using ETicaretSitesi.Models
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- Logo -->
+                    <a href="@Url.Action("Index", "Home")" class="logo">
+                        <img src="~/Content/images/amblem2.jpg" alt="Site Logo">
+                    </a>
+                    <!-- Navigation Menu -->
+                    <ul class="nav">
+                        <li><a asp-controller="Home" asp-action="Index" class="active">Home</a></li>
+                        <li><a asp-controller="Products" asp-action="Products">Products</a></li>
+                        <li><a asp-controller="Home" asp-action="About">About Us</a></li>
+                        <li><a asp-controller="Home" asp-action="Contact">Contact Us</a></li>
+                        <li><a asp-controller="Account" asp-action="Login">Login</a></li>
+                    </ul>
+                    <!-- Menu Trigger for Mobile -->
+                    <a class="menu-trigger">
+                        <span>Menu</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- ***** Main Banner Area Start ***** -->
+<div class="page-heading" id="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="inner-content">
+                    <h2>Your Cart</h2>
+                    <span>Review your selected products below.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Main Banner Area End ***** -->
+<!-- ***** Cart Details Start ***** -->
+<div class="cart-details section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="cart-table">
+                    <a class="btn btn-outline-dark" href="javascript:history.back();">Geri</a>
+                    <br>
+                    <h3>Your Cart</h3>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                                <th>Total</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr data-cart-id="@item.CartID">
+                                    <td>@item.Product.ProductName</td>
+                                    <td>
+                                        <div class="quantity buttons_added">
+                                            <input type="button" value="-" class="minus btn btn-secondary" />
+                                            <input type="number" step="1" min="1" name="quantity" value="@item.Quantity" title="Qty" class="input-text qty text" data-price="@item.Product.Price" size="4" />
+                                            <input type="button" value="+" class="plus btn btn-secondary" />
+                                        </div>
+                                    </td>
+                                    <td>@item.Product.Price</td>
+                                    <td class="item-total">@(@item.Quantity * @item.Product.Price)</td>
+                                    <td>
+                                        <a asp-action="RemoveFromCart" asp-route-id="@item.CartID" class="btn btn-danger">Remove</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="total-section text-end">
+                    <h4>Total: <span id="cart-total">@Model.Sum(c => c.Quantity * c.Product.Price)</span> ₺</h4>
+                    <a asp-controller="Payment" asp-action="Index" asp-route-totalAmount="@Model.Sum(c => c.Quantity * c.Product.Price)" class="btn btn-success">Proceed to Checkout</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Cart Details End ***** -->
+<!-- ***** Footer Start ***** -->
+@await Html.PartialAsync("_Footer")
+<!-- ***** Footer End ***** -->
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const updateCartTotal = () => {
+                let cartTotal = 0;
+                document.querySelectorAll("tbody tr").forEach(row => {
+                    const qtyInput = row.querySelector(".qty");
+                    const price = parseFloat(qtyInput.getAttribute("data-price"));
+                    const quantity = parseInt(qtyInput.value) || 0;
+                    const itemTotal = price * quantity;
+                    row.querySelector(".item-total").textContent = itemTotal.toFixed(2) + " $";
+                    cartTotal += itemTotal;
+
+                    // Backend'e miktar güncellemesini gönder
+                    fetch('/Cart/UpdateQuantity', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ cartId: row.dataset.cartId, quantity: quantity })
+                    }).then(response => {
+                        if (!response.ok) {
+                            console.error('Failed to update quantity on server.');
+                        }
+                    });
+                });
+                document.getElementById("cart-total").textContent = cartTotal.toFixed(2) + " $";
+            };
+
+            // Artı buton
+            document.querySelectorAll(".plus").forEach(button => {
+                button.addEventListener("click", function () {
+                    const qtyInput = this.parentNode.querySelector(".qty");
+                    qtyInput.value = parseInt(qtyInput.value) + 1 || 1;
+                    updateCartTotal();
+                });
+            });
+
+            // Eksi buton
+            document.querySelectorAll(".minus").forEach(button => {
+                button.addEventListener("click", function () {
+                    const qtyInput = this.parentNode.querySelector(".qty");
+                    const currentValue = parseInt(qtyInput.value) || 0;
+                    if (currentValue > 1) {
+                        qtyInput.value = currentValue - 1;
+                        updateCartTotal();
+                    }
+                });
+            });
+
+            // Manuel giriş
+            document.querySelectorAll(".qty").forEach(input => {
+                input.addEventListener("input", function () {
+                    if (parseInt(this.value) < 1 || isNaN(this.value)) {
+                        this.value = 1;
+                    }
+                    updateCartTotal();
+                });
+            });
+        });
+    </script>
+}
+
+
